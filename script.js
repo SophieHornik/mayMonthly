@@ -1,13 +1,12 @@
 //Team Member Data
 const teamMembers = [
 {
-    name: 'Lionel Messi',
-    age: 36,
-    activePlayer: true,
-    position: 'forward',
-    strengths:'Ball Control',
-    weaknesses:'heading ability',
-    skills:['Dribbling','Shooting','Passing'],
+    name: 'Darth Vader',
+    species: 'human',
+    alive: false,
+    saberColor: 'red',
+    children:['Luke Skywalker','Leia Organa (Skywalker)'],
+    movies:['Revenge of the Sith','A New Hope','Empire Strikes Back','Return of the Jedi'],
     biography:'Messi is cool',
 }
 ]
@@ -21,18 +20,38 @@ teamMembers.forEach(member => {
     const card = document.createElement('div')
     card.classList.add('col-md-4')
 
+    let aliveStatus
+
+    if(member.alive){
+        aliveStatus = "Living"
+    } else {
+        aliveStatus = "Deceased"
+    }
+
+
+//Create a list of Skills with <li> tags
+const moviesList = member.movies
+.map(movies => `<li> ${movies} </li>`).join('')
+
+const childrenList = member.children
+.map(children => `<li> ${children} </li>`).join('')
+
+
 //style the background color of the card based off position
 let backgroundColor
 
-switch(member.position.toLowerCase()){
-    case 'forward':
+switch(member.saberColor.toLowerCase()){
+    case 'red':
         backgroundColor = "red"
         break
-        case 'mid':
+        case 'blue':
+        backgroundColor = "blue"
+        break
+        case 'green':
         backgroundColor = "green"
         break
-        case 'defender':
-        backgroundColor = "blue"
+        case 'purple':
+        backgroundColor = "purple"
         break
         case '':
         backgroundColor = "gray"
@@ -47,11 +66,16 @@ card.style.backgroundColor = backgroundColor
         ${member.name}
         </div>
         <div class="card-body" style="background-color:${backgroundColor};">
-        <p><strong>Position:</strong> ${member.position}</p>
+        <p><strong>Species:</strong> ${member.species}</p>
+        <p><strong>Status:</strong> ${aliveStatus}</p>
+        <p><strong>Children:</strong> ${childrenList}</p>
+        <p><strong>Movies:</strong> ${moviesList}</p>
+
         </div>
     </div>
   
     `
+    
     teamCardsContainer.appendChild(card)
 });
 
