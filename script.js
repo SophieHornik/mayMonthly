@@ -64,8 +64,8 @@ card.style.backgroundColor = backgroundColor
     card.innerHTML= `
     <div class="card">
         <div class = "card-header text-center">
-        <img src="${member.img}" class= "img-fluid card-img">
-        ${member.name}
+        <img src="${member.img}" class="img-fluid card-img">
+      ${member.name}
         </div>
         <div class="card-body" style="background-color:${backgroundColor};">
         <p><strong>Species:</strong> ${member.species}</p>
