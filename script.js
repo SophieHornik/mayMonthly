@@ -2,7 +2,7 @@
 const teamMembers = [
 {
     name: 'Darth Vader',
-    species: 'human',
+    species: 'Human',
     alive: false,
     saberColor: 'red',
     children:['Luke Skywalker','Leia Organa (Skywalker)'],
@@ -62,17 +62,17 @@ card.style.backgroundColor = backgroundColor
 
 
     card.innerHTML= `
-    <div class="card">
+    <div class="card mt-5">
         <div class = "card-header text-center">
         <img src="${member.img}" class="img-fluid card-img">
       ${member.name}
         </div>
         <div class="card-body" style="background-color:${backgroundColor};">
-        <p><strong>Species:</strong> ${member.species}</p>
-        <p><strong>Status:</strong> ${aliveStatus}</p>
-        <p><strong>Children:</strong> ${childrenList}</p>
-        <p><strong>Movies:</strong> ${moviesList}</p>
-        <p><strong>Movies:</strong> ${member.biography}</p>
+        <p><strong class="chcolor">Species:</strong> ${member.species}</p>
+        <p><strong class="chcolor">Status:</strong> ${aliveStatus}</p>
+        <p><strong class="chcolor">Children:</strong> ${childrenList}</p>
+        <p><strong class="chcolor">Movies:</strong> ${moviesList}</p>
+        <p><strong class="chcolor">Movies:</strong> ${member.biography}</p>
         </div>
     </div>
   

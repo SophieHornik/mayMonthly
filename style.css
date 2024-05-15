@@ -8,4 +8,13 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin: 5%;
+}
+.chcolor{
+    color: black;
+}
+body{
+    background-image: url(starwarsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
