@@ -7,7 +7,8 @@ const teamMembers = [
     saberColor: 'red',
     children:['Luke Skywalker','Leia Organa (Skywalker)'],
     movies:['Revenge of the Sith','A New Hope','Empire Strikes Back','Return of the Jedi'],
-    biography:'Messi is cool',
+    biography:'Darth Vader, born as Anakin Skywalker, was a central figure in the Star Wars saga. Initially a heroic Jedi Knight, he fell to the dark side of the Force due to fear, anger, and manipulation by Emperor Palpatine. Clad in menacing black armor and wielding a red lightsaber, Vader became a symbol of tyranny in the galaxy. Despite his villainous deeds, a flicker of redemption remained within him, ultimately leading to his self-sacrifice to save his son, Luke Skywalker, and destroy the Emperor, bringing balance to the Force.i is cool',
+    img:'vader.png'
 }
 ]
 
@@ -62,7 +63,8 @@ card.style.backgroundColor = backgroundColor
 
     card.innerHTML= `
     <div class="card">
-        <div class = "card-header">
+        <div class = "card-header text-center">
+        <img src="${member.img}" class=img-fluid pics">
         ${member.name}
         </div>
         <div class="card-body" style="background-color:${backgroundColor};">
@@ -70,7 +72,7 @@ card.style.backgroundColor = backgroundColor
         <p><strong>Status:</strong> ${aliveStatus}</p>
         <p><strong>Children:</strong> ${childrenList}</p>
         <p><strong>Movies:</strong> ${moviesList}</p>
-
+        <p><strong>Movies:</strong> ${member.biography}</p>
         </div>
     </div>
   
