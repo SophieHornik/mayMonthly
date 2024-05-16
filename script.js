@@ -28,7 +28,7 @@ const teamCardsContainer = document.getElementById('teamCards')
 
 teamMembers.forEach(member => {
     const card = document.createElement('div')
-    card.classList.add('col-md-4')
+    card.classList.add('col-md-4', 'm-3')
 
     let aliveStatus
 

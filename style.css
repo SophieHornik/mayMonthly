@@ -2,7 +2,7 @@
     color: #ffffff;
     font-family: "Teachers", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     font-style: normal;
 }
 .card{
@@ -29,4 +29,10 @@ body{
 
 .row{
     background-color: black;
+}
+.titlepic{
+width: 30%;
+}
+.titlediv{
+    text-align: center;
 }
