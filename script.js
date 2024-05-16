@@ -15,7 +15,7 @@ const teamMembers = [
     species: 'Human',
     alive: false,
     saberColor: 'green',
-    children:['none'],
+    children:['None'],
     movies:['A New Hope','Empire Strikes Back','Return of the Jedi','The Force Awakens','The Rise of Skywalker'],
     biography:'Luke Skywalker, the son of Anakin Skywalker and Padmé Amidala, played a crucial role in the Star Wars saga. From a humble farm boy on Tatooine to a Jedi Knight, Lukes journey epitomized hope and redemption. Despite confronting his fathers dark legacy as Darth Vader, Luke remained steadfast in his commitment to the light side. His unwavering resolve and belief in the power of goodness led to the redemption of Darth Vader and the ultimate defeat of the Sith, solidifying his legacy as a beacon of hope in the galaxy.',
     img:'newlukepic.jpg'
@@ -26,11 +26,44 @@ const teamMembers = [
     alive: false,
     saberColor: '',
     children:['Ben Solo(Kylo Ren)'],
-    movies:['A New Hope','Empire Strikes Back','Return of the Jedi','The Force Awakens','The Rise of Skywalker'],
+    movies:['A New Hope','Empire Strikes Back','Return of the Jedi','The Force Awakens'],
     biography:
     'Han Solo, the charismatic smuggler turned hero, was an essential figure in the Star Wars saga. From a humble beginning on Tatooine to his pivotal role in the Rebel Alliance, Solos roguish charm and loyalty made him a symbol of rebellion. Despite his initial reluctance, his journey from scoundrel to hero culminated in the Battle of Endor, securing his place as one of the galaxys greatest icons.Han Solo, the charming smuggler-turned-hero, left an unforgettable mark on the Star Wars saga. From piloting the Millennium Falcon to his pivotal role in the Rebel Alliance, Solos roguish charm and loyalty to his friends made him a symbol of rebellion. His journey from scoundrel to hero culminated in his pivotal role in the Battle of Endor, securing his place as one of the galaxys greatest icons.',
     img:'solo.jpg'
-}
+},
+{
+    name: 'Leia Organa (Skywalker)',
+    species: 'Human',
+    alive: false,
+    saberColor: '',
+    children:['Ben Solo(Kylo Ren)'],
+    movies:['A New Hope','Empire Strikes Back','Return of the Jedi','The Force Awakens','The Rise of Skywalker'],
+    biography:
+    'Leia Organa, a fearless leader and devoted ally, left an enduring legacy in the Star Wars saga. From her early days as a member of the Rebel Alliance to her crucial role in the fight against the tyranny of the Empire, Leias unwavering resolve and commitment to justice made her a beacon of hope in the galaxy. As a skilled diplomat and a formidable warrior, she played a vital part in the Rebel Alliances victories, including the destruction of the Death Star. Despite facing personal tragedies and challenges, Leias strength and determination never wavered, solidifying her place as one of the most iconic heroes in the Star Wars universe.',
+    img:'leia.jpg'
+},
+{
+    name: 'Chewbacca',
+    species: 'Wookiee ',
+    alive: true,
+    saberColor: '',
+    children:['None'],
+    movies:['Revenge of the Sith','A New Hope','Empire Strikes Back','Return of the Jedi','The Force Awakens','The Rise of Skywalker'],
+    biography:
+    'Chewbacca, the loyal Wookiee co-pilot of the Millennium Falcon, was a beloved character in the Star Wars saga. With his towering stature, fierce loyalty, and distinctive growl, Chewbacca became an iconic figure alongside his friend Han Solo. Despite his limited verbal communication, Chewbaccas actions spoke volumes, whether in battle or in moments of camaraderie with his companions. Throughout the galaxy-spanning adventures, Chewbaccas unwavering loyalty and bravery earned him the respect of allies and adversaries alike. As a steadfast friend and fierce warrior, Chewbaccas presence added depth and heart to the Star Wars universe, making him an unforgettable part of its legacy.',
+    img:'chewwy.jpg'
+},
+{
+    name: 'Yoda',
+    species: 'Lannik',
+    alive: false,
+    saberColor: 'green',
+    children:['None'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith','Empire Strikes Back','Return of the Jedi',],
+    biography:
+    'Chewbacca, the loyal Wookiee co-pilot of the Millennium Falcon, was a beloved character in the Star Wars saga. With his towering stature, fierce loyalty, and distinctive growl, Chewbacca became an iconic figure alongside his friend Han Solo. Despite his limited verbal communication, Chewbaccas actions spoke volumes, whether in battle or in moments of camaraderie with his companions. Throughout the galaxy-spanning adventures, Chewbaccas unwavering loyalty and bravery earned him the respect of allies and adversaries alike. As a steadfast friend and fierce warrior, Chewbaccas presence added depth and heart to the Star Wars universe, making him an unforgettable part of its legacy.',
+    img:'yoda.jpg'
+},
 ]
 
 function generateTeamCards(){
