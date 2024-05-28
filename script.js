@@ -119,6 +119,17 @@ const teamMembers = [
     'Emperor Palpatine, also known as Darth Sidious, is a central antagonist in the Star Wars saga, renowned for his cunning, manipulation, and mastery of the dark side of the Force. Rising from humble beginnings as a senator from Naboo, Palpatine orchestrates a galaxy-spanning conflict known as the Clone Wars, ultimately engineering the downfall of the Jedi Order and the rise of the Galactic Empire. As Emperor, he wields absolute power, ruling with an iron fist and ruthlessly suppressing any opposition to his regime. Palpatines insidious influence extends even beyond his physical form, as he manipulates events from the shadows to further his agenda of galactic domination. Despite his apparent demise in Return of the Jedi, Palpatines dark legacy continues to cast a shadow over the galaxy, his machinations echoing through the generations and threatening the balance of the Force.',
     img:'ds.jpg'
 },
+{
+    name: 'Padmé Amidala',
+    species: 'Human',
+    alive: false,
+    saberColor: '',
+    children:['Luke Skywalker','Leia Organa (Skywalker)'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith',],
+    biography:
+    ' Padmé Amidala is a central figure in the Star Wars prequel trilogy, renowned for her leadership, courage, and unwavering dedication to her people. Initially introduced as the young and determined Queen of Naboo, she demonstrates remarkable strength and resolve in the face of the Trade Federations invasion. Throughout the trilogy, Padmés role evolves from monarch to senator, as she becomes a prominent voice for peace and justice in the Galactic Senate. Her alliance with the Jedi Order, particularly her close relationship with Anakin Skywalker, ultimately leads to both triumph and tragedy. Padmés commitment to democracy and her tireless efforts to resist the rise of tyranny define her character, making her a symbol of hope and resilience in the face of oppression. Despite her untimely demise, Padmés legacy lives on through her children, Luke and Leia Skywalker, who carry on her spirit of compassion and courage in their own heroic journeys.',
+    img:'padme.jpg'
+},
 ]
 
 function generateTeamCards(){
