@@ -97,6 +97,28 @@ const teamMembers = [
     'C-3PO, the protocol droid fluent in over six million forms of communication, is a staple character in the Star Wars universe. Created by Anakin Skywalker, he serves various masters across the galaxy, including Queen Amidala, the Rebel Alliance, and the Resistance. With his cautious demeanor and penchant for etiquette, C-3PO often finds himself embroiled in adventurous escapades alongside his counterpart, R2-D2. Though sometimes prone to anxiety and worry, his loyalty and dedication to his friends shine through, making him an endearing presence in the epic saga of Star Wars.',
     img:'c3po.jpg'
 },
+{
+    name: 'Obi-Wan Kenobi',
+    species: 'Human',
+    alive: false,
+    saberColor: 'blue',
+    children:['None'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith','A New Hope',],
+    biography:
+    'Obi-Wan Kenobi emerges as a pivotal figure in the Star Wars saga, embodying the ideals of the Jedi Order through his unwavering dedication and wisdom. As a young Jedi Knight, he mentors Anakin Skywalker, recognizing his potential but also witnessing his descent into darkness. Throughout the Clone Wars, Obi-Wan serves as a beacon of hope amidst the turmoil, facing adversaries like Count Dooku and General Grievous with courage and resilience. However, Anakins fall to the dark side marks a turning point, leading Obi-Wan to exile on Tatooine, where he watches over Anakins infant son, Luke Skywalker. In the original trilogy, Obi-Wans guidance proves instrumental in Lukes journey to becoming a Jedi, culminating in a selfless sacrifice to ensure the success of the Rebel Alliance. Despite his physical absence, Obi-Wans teachings and spirit endure, shaping the destiny of the galaxy and inspiring future generations of Jedi.',
+    img:'obwk.jpg'
+},
+{
+    name: ' Darth Sidious <br>(AKA Emperor Palpatine)',
+    species: 'Human',
+    alive: false,
+    saberColor: 'red',
+    children:['None'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith','A New Hope','The Empire Strikes Back','Return of the Jedi','The Rise of Skywalker',],
+    biography:
+    'Emperor Palpatine, also known as Darth Sidious, is a central antagonist in the Star Wars saga, renowned for his cunning, manipulation, and mastery of the dark side of the Force. Rising from humble beginnings as a senator from Naboo, Palpatine orchestrates a galaxy-spanning conflict known as the Clone Wars, ultimately engineering the downfall of the Jedi Order and the rise of the Galactic Empire. As Emperor, he wields absolute power, ruling with an iron fist and ruthlessly suppressing any opposition to his regime. Palpatines insidious influence extends even beyond his physical form, as he manipulates events from the shadows to further his agenda of galactic domination. Despite his apparent demise in Return of the Jedi, Palpatines dark legacy continues to cast a shadow over the galaxy, his machinations echoing through the generations and threatening the balance of the Force.',
+    img:'ds.jpg'
+},
 ]
 
 function generateTeamCards(){
