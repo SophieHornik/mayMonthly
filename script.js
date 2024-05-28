@@ -64,6 +64,28 @@ const teamMembers = [
     'Chewbacca, the loyal Wookiee co-pilot of the Millennium Falcon, was a beloved character in the Star Wars saga. With his towering stature, fierce loyalty, and distinctive growl, Chewbacca became an iconic figure alongside his friend Han Solo. Despite his limited verbal communication, Chewbaccas actions spoke volumes, whether in battle or in moments of camaraderie with his companions. Throughout the galaxy-spanning adventures, Chewbaccas unwavering loyalty and bravery earned him the respect of allies and adversaries alike. As a steadfast friend and fierce warrior, Chewbaccas presence added depth and heart to the Star Wars universe, making him an unforgettable part of its legacy.',
     img:'yoda.jpg'
 },
+{
+    name: 'Mace Windu',
+    species: 'Human',
+    alive: false,
+    saberColor: 'purple',
+    children:['None'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith',],
+    biography:
+    ' Mace Windu is a distinguished and powerful Jedi Master in the Star Wars universe, known for his exceptional combat skills and deep commitment to the Jedi Order. He serves on the Jedi High Council and is renowned for his mastery of the rare and aggressive Form VII lightsaber combat, also known as Vaapad. Windu wields a unique purple-bladed lightsaber, symbolizing his balance between the light and dark sides of the Force. Throughout the Clone Wars, he plays a crucial role as a leader and strategist, often working alongside key figures like Yoda and Anakin Skywalker. His unwavering dedication to justice and the Jedi code ultimately leads him to confront Chancellor Palpatine, where he meets his tragic end, cementing his legacy as one of the most respected and formidable Jedi in galactic history.',
+    img:'macewindu.jpg'
+},
+{
+    name: 'R2-D2',
+    species: 'Droid',
+    alive: true,
+    saberColor: '',
+    children:['None'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith','A New Hope','The Empire Strikes Back','Return of the Jedi','The Force Awakens','The Last Jedi','The Rise of Skywalker',],
+    biography:
+    'R2-D2 is a resourceful and courageous astromech droid in the Star Wars universe, renowned for his pivotal role in numerous key events across the galaxy. Originally serving Queen Amidala of Naboo, his adventures span the entirety of the Skywalker saga, providing crucial assistance to figures like Anakin Skywalker, Padmé Amidala, and Luke Skywalker. His skills in repair, hacking, and navigation, coupled with his brave and loyal nature, make him an invaluable ally. R2-D2 plays significant roles in the Galactic Republic, the Rebellion, and the Resistance, often turning the tide in critical situations with his quick thinking and technological expertise. His endearing personality and indomitable spirit have cemented him as one of the most beloved characters in the Star Wars franchise.',
+    img:'r2.jpg'
+},
 ]
 
 function generateTeamCards(){
