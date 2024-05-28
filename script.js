@@ -86,6 +86,17 @@ const teamMembers = [
     'R2-D2 is a resourceful and courageous astromech droid in the Star Wars universe, renowned for his pivotal role in numerous key events across the galaxy. Originally serving Queen Amidala of Naboo, his adventures span the entirety of the Skywalker saga, providing crucial assistance to figures like Anakin Skywalker, Padmé Amidala, and Luke Skywalker. His skills in repair, hacking, and navigation, coupled with his brave and loyal nature, make him an invaluable ally. R2-D2 plays significant roles in the Galactic Republic, the Rebellion, and the Resistance, often turning the tide in critical situations with his quick thinking and technological expertise. His endearing personality and indomitable spirit have cemented him as one of the most beloved characters in the Star Wars franchise.',
     img:'r2.jpg'
 },
+{
+    name: 'C-3PO',
+    species: 'Droid',
+    alive: true,
+    saberColor: '',
+    children:['None'],
+    movies:['The Phantom Menace','Attack of the Clones','Revenge of the Sith','A New Hope','The Empire Strikes Back','Return of the Jedi','The Force Awakens','The Last Jedi','The Rise of Skywalker',],
+    biography:
+    'C-3PO, the protocol droid fluent in over six million forms of communication, is a staple character in the Star Wars universe. Created by Anakin Skywalker, he serves various masters across the galaxy, including Queen Amidala, the Rebel Alliance, and the Resistance. With his cautious demeanor and penchant for etiquette, C-3PO often finds himself embroiled in adventurous escapades alongside his counterpart, R2-D2. Though sometimes prone to anxiety and worry, his loyalty and dedication to his friends shine through, making him an endearing presence in the epic saga of Star Wars.',
+    img:'c3po.jpg'
+},
 ]
 
 function generateTeamCards(){
